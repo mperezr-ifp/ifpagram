@@ -1,0 +1,199 @@
+header {
+    height: 166px;
+}
+
+nav {
+    height: 180px;
+}
+
+article {
+}
+
+.contenidor {
+    width: 1716px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.entrada {
+    width: 536px;
+    height: 620px;
+    margin: 18px;
+    float:left;
+}
+
+img {
+    width: 536px;
+    height: 536px;
+}
+
+.reaccions {
+    height: 84px;
+    overflow:hidden;
+}
+
+.cercle {
+    width: 80px;
+    height: 80px;
+    background-color: maroon;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 28px;
+    padding: 10px;
+    border: solid 5px white;
+    box-shadow: 0px 0px 15px purple;
+
+
+    background-image: url(../img/perfil\ 1.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 100%;
+
+}
+
+.cercle::after {
+    content:"+";
+    display: block;
+    background-color: purple;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: white;
+    font-size: 32px;
+    border: solid 4px white;
+    position: relative;
+    top: 58px;
+    left: 62px;
+}
+
+
+.cercle:hover {
+    opacity: 85%;
+}
+
+.fotoautor {
+    width: 55px;
+    height: 55px;
+    background-image: url(../img/perfil\ 4.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: solid 2px white;
+    box-shadow: 0px 0px 15px blue;
+    margin: 10px;
+    float: left;
+}
+
+.autor {
+    width: 268px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.moment {
+    width: 268px;
+    color: gainsboro;
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.esquerra {
+    width: 50%;
+    margin: 0;
+    float: left;
+}
+
+.dreta {
+    width: 50%;
+    margin: 0;
+    float: right;
+}
+
+.comentari {
+    height: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    font-size: 15px;
+    width: 180px;
+    float: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.like {
+    margin-top: 5px;
+    height: 40px;
+    width: 40px;
+    float: left;
+}
+
+.mes {
+    margin-top: 5px;
+    height: 40px;
+    width: 40px;
+    float:left;
+}
+
+.home {
+    width: 208px;
+    height: 45px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-image: url(../img/images/ifpagram_09.jpg);
+    margin: 50px 0 0 0;
+    display:inline-block;
+}
+
+.menu {
+    width: 208px;
+    height: 45px;
+    margin: 50px 470px 0 470px;
+    display: inline-block;
+}
+
+    .menu li {
+        width: 32px;
+        height: 32px;
+        background: yellow;
+        margin: 3px 8px;
+        display: inline-block;
+        background-image: url(../img/images/ifpagram_11.jpg);
+    }
+
+    .menu .inici {
+        background-position: -7px -8px;  
+    }
+
+    .menu .cerca {
+        background-position: -91px -8px;  
+    }
+
+    .menu .reels {
+        background-position: -175px -6px;  
+    }
+
+    .menu .fav {
+        background-position: -259px -7px;  
+    }
+
+    .dm {
+        width: 160px;
+        height: 93px;
+        margin: -62px 50px 0 470px;
+        display: inline-block;
+        background-image: url(../img/images/nuevo_09.jpg);       
+    }
+
+
+
+.menu .perfil {
+    width: 208px;
+    height: 45px;
+    margin: 50px 0 0 0;
+    display: inline-block;}
+
+
